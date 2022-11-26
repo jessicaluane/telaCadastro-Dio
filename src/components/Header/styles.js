@@ -10,13 +10,21 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #151515;
 `
 
 export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
-`;
+`
 
 export const Wrapper = styled.div`
     background-color: #151515;
@@ -24,7 +32,8 @@ export const Wrapper = styled.div`
     height: 47px;
     display:flex
     justify-content: center;
-    align-items: center
+    align-items: center;
+
 `
 
 export const BuscarInputContainer = styled.div`
@@ -51,7 +60,7 @@ export const Menu = styled.a`
 export const MenuRight = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
     margin-right: 12px;

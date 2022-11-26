@@ -13,7 +13,11 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    position: absolute;
+    width: 374px;
+    height: 450px;
+    left: 748px;
+    top: 153px;  
 `
 
 export const Column = styled.div`
@@ -29,15 +33,19 @@ export const Row = styled.div`
 `
 
 export const Title = styled.h2`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    max-width: 90%;
-    margin-bottom: 20px;
-    line-height: 44px;
+	position: absolute;
+	width: 388px;
+	height: 308px;
+	left: 65px;
+	top: 141px;		
+		
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
 
-    color: #FFFFFF;
+	color: #FFFFFF;
 `
 
 export const TitleLogin = styled.p`
@@ -47,6 +55,11 @@ export const TitleLogin = styled.p`
     font-size: 32px;
     line-height: 44px;
     margin-bottom: 8px;
+    
+    width: 368px;
+    height: 44px;
+    left: 750px;
+    top: 153px;
 `
 
 export const SubtitleLogin = styled.p`
@@ -58,23 +71,26 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
+export const PrivacidadeText = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-export const EsqueciText  = styled.p`
+	color: #FFFFFF;
+`
+
+export const CriarText = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
 
-    color: #E5E044;
-` 
+    color: #FFFFFF;
+`
 
-export const CriarText =  styled.p`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-
+export const LoginText = styled.span`
     color: #23DD7A;
 `

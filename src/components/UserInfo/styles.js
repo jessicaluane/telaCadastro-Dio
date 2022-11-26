@@ -33,8 +33,10 @@ export const Progress = styled.div`
     &::after {
         content: '';
         position: absolute;
-        top: 0;
-        left: 0;
+        left: 5.02%;
+        right: 6.84%;
+        top: 19.84%;
+        bottom: 19.18%;
         width: ${({percentual}) => percentual}%;
         height: 6px;
         border-radius: 3px;

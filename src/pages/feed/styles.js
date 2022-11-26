@@ -29,7 +29,6 @@ export const TitleHighlight = styled.h3`
     line-height: 25px;
     color: #FFFFFF70;
     margin-bottom: 24px;
-
 `
 
 export const Column = styled.div`
